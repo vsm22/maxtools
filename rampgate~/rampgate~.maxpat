@@ -101,9 +101,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Route dest.",
 					"id" : "obj-375",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -171,13 +171,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-21",
-					"index" : 0,
+					"comment" : "Signal Ch.2",
+					"id" : "obj-30",
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 377.0, 30.0, 30.0, 30.0 ],
 					"style" : "",
 					"varname" : "#0inlet2"
@@ -198,9 +198,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-25",
-					"index" : 0,
+					"comment" : "Ramp time",
+					"id" : "obj-31",
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -213,13 +213,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-26",
-					"index" : 0,
+					"comment" : "Signal ch.1",
+					"id" : "obj-32",
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 227.0, 30.0, 30.0, 30.0 ],
 					"style" : "",
 					"varname" : "#0inlet1"
@@ -231,7 +231,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
-					"id" : "obj-27",
+					"id" : "obj-33",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -263,16 +263,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "rampgate~.js",
-				"bootpath" : "~/Documents/Max 7/Tools/rampgate~",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
